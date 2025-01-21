@@ -41,19 +41,37 @@ The project is built with TypeScript, Vite, Mantine, and Apache ECharts.
 <img width="434" alt="folder structure" src="https://github.com/user-attachments/assets/83429acd-17e3-4355-86f2-bca13ea0f297" />
 
 
-/src
-├── components
-│   ├── Table.tsx         // Mantine table for crop data
-│   ├── BarChart.tsx      // Apache ECharts bar chart
-│   ├── Layout.tsx        // Common layout wrapper
-├── utils
-│   ├── dataProcessor.ts  // Data aggregation logic
-│   ├── constants.ts      // Define dataset paths or constants
-├── data
-│   ├── cropsData.json    // Local copy of the dataset
-├── App.tsx               // Main entry point
-├── index.css             // Styling (if needed)
-```
 
+## Data Processing
+
+# Table Data
+
+- Aggregates the dataset to find the crop with the maximum and minimum production for each year.
+
+# Bar Chart Data
+
+- Calculates the average yield for each crop by summing up its production and dividing it by the count of records.
+
+## Libraries Used
+
+- **TypeScript**: Ensures type safety throughout the application.
+- **Vite**: Fast build tool and development server.
+- **Mantine**: Used for building the table component.
+- **Apache ECharts**: Used for rendering the bar chart.
+
+
+
+## Screenshots
+
+# Table Component
+
+![Table 1]<img width="960" alt="1" src="https://github.com/user-attachments/assets/f7b135aa-39bb-43ea-9335-d2a9a71edbe0" />
+
+![Table 2]<img width="960" alt="2" src="https://github.com/user-attachments/assets/3431d26b-aebd-420c-8d16-06d5ea63a533" />
+
+
+# Bar Chart Component
+
+<img width="942" alt="3" src="https://github.com/user-attachments/assets/2607417d-39c6-4fe4-a8de-2e0b32d10817" />
 
 
