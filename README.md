@@ -10,9 +10,9 @@ The project is built with TypeScript, Vite, Mantine, and Apache ECharts.
 
 ## Features
 
-- **Table:** Aggregates and displays the crops with the highest and lowest production for each year.
-- **Bar Chart:** Visualizes the average yield of each crop across the dataset.
-- **Efficient Data Processing:** Handles missing values (treated as `0`) and processes large datasets efficiently.
+- Table: Aggregates and displays the crops with the highest and lowest production for each year.
+- Bar Chart: Visualizes the average yield of each crop across the dataset.
+- Efficient Data Processing: Handles missing values (treated as `0`) and processes large datasets efficiently.
 
 
 ## Installation
