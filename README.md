@@ -79,14 +79,15 @@ The project is built with TypeScript, Vite, Mantine, and Apache ECharts.
 
 # Table Component
 
-<img width="960" alt="1" src="https://github.com/user-attachments/assets/3542733b-eb53-40dd-99ae-098a5972ee89" />
+<img width="960" alt="1" src="https://github.com/user-attachments/assets/f7b135aa-39bb-43ea-9335-d2a9a71edbe0" />
 
-<img width="960" alt="2" src="https://github.com/user-attachments/assets/ca0878ea-1601-4ad8-b5e9-7bdd1ee96f1f" />
+<img width="960" alt="2" src="https://github.com/user-attachments/assets/3431d26b-aebd-420c-8d16-06d5ea63a533" />
 
 
 # Bar Chart Component
 
-<img width="942" alt="3" src="https://github.com/user-attachments/assets/852d2978-7622-4ef6-9144-9df3db1b9b81" />
+<img width="942" alt="3" src="https://github.com/user-attachments/assets/2607417d-39c6-4fe4-a8de-2e0b32d10817" />
+
 
 
 
