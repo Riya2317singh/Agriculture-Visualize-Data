@@ -37,10 +37,6 @@ The project is built with TypeScript, Vite, Mantine, and Apache ECharts.
 4. Open your browser at `http://localhost:5173` to view the app.
 
 
-## Folder Structure
-<img width="434" alt="folder structure" src="https://github.com/user-attachments/assets/83429acd-17e3-4355-86f2-bca13ea0f297" />
-
-
 
 ## Data Processing
 
