@@ -55,7 +55,6 @@ The project is built with TypeScript, Vite, Mantine, and Apache ECharts.
 ├── index.css             // Styling (if needed)
 ```
 
-
 ## Data Processing
 
 # Table Data
