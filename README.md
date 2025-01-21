@@ -1,50 +1,93 @@
-# React + TypeScript + Vite
+# Indian Agriculture Data Analysis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project visualizes data from the Indian Agriculture dataset provided by the National Data and Analytics Platform (NDAP), NITI Aayog. It includes two key components:
 
-Currently, two official plugins are available:
+1. A table displaying the crop with maximum and minimum production for each year.
+2. A bar chart showing the average yield of crops between 1950 and 2020.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project is built with TypeScript, Vite, Mantine, and Apache ECharts.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- **Table:** Aggregates and displays the crops with the highest and lowest production for each year.
+- **Bar Chart:** Visualizes the average yield of each crop across the dataset.
+- **Efficient Data Processing:** Handles missing values (treated as `0`) and processes large datasets efficiently.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd agriculture-analysis
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   yarn install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   yarn dev
+   ```
+
+4. Open your browser at `http://localhost:5173` to view the app.
+
+
+## Folder Structure
+
+/src
+├── components
+│   ├── Table.tsx         // Mantine table for crop data
+│   ├── BarChart.tsx      // Apache ECharts bar chart
+│   ├── Layout.tsx        // Common layout wrapper
+├── utils
+│   ├── dataProcessor.ts  // Data aggregation logic
+│   ├── constants.ts      // Define dataset paths or constants
+├── data
+│   ├── cropsData.json    // Local copy of the dataset
+├── App.tsx               // Main entry point
+├── index.css             // Styling (if needed)
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Data Processing
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+# Table Data
+
+- Aggregates the dataset to find the crop with the maximum and minimum production for each year.
+
+# Bar Chart Data
+
+- Calculates the average yield for each crop by summing up its production and dividing it by the count of records.
+
+
+## Libraries Used
+
+- **TypeScript**: Ensures type safety throughout the application.
+- **Vite**: Fast build tool and development server.
+- **Mantine**: Used for building the table component.
+- **Apache ECharts**: Used for rendering the bar chart.
+
+
+
+## Screenshots
+
+# Table Component
+
+<img width="960" alt="1" src="https://github.com/user-attachments/assets/3542733b-eb53-40dd-99ae-098a5972ee89" />
+
+<img width="960" alt="2" src="https://github.com/user-attachments/assets/ca0878ea-1601-4ad8-b5e9-7bdd1ee96f1f" />
+
+
+# Bar Chart Component
+
+<img width="942" alt="3" src="https://github.com/user-attachments/assets/852d2978-7622-4ef6-9144-9df3db1b9b81" />
+
+
+
