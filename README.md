@@ -1,4 +1,4 @@
-# Indian Agriculture Data Analysis
+# Agriculture Visualize Data
 
 This project visualizes data from the Indian Agriculture dataset provided by the National Data and Analytics Platform (NDAP), NITI Aayog. It includes two key components:
 
